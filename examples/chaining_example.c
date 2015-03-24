@@ -16,8 +16,8 @@
  ********************************************************************/
 
 #include <stdlib.h>
-#include <vorbis/codec.h>
-#include <vorbis/vorbisfile.h>
+#include "codec.h"
+#include "vorbisfile.h"
 
 #ifdef _WIN32 /* We need the following two to set stdin/stdout to binary */
 #include <io.h>

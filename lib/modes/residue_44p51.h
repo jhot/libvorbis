@@ -15,10 +15,10 @@
 
  ********************************************************************/
 
-#include "vorbis/codec.h"
+#include "codec.h"
 #include "backends.h"
 
-#include "books/coupled/res_books_51.h"
+#include "res_books_51.h"
 
 /***** residue backends *********************************************/
 
