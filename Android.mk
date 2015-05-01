@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE     := vorbis
+LOCAL_MODULE     := x_v_3f6eac67
 LOCAL_C_INCLUDES := $(LOCAL_PATH) $(LOCAL_PATH)/include $(LOCAL_PATH)/libogg/include $(LOCAL_PATH)/lib
 
 LIBOGG_SOURCE_FILES := libogg/src/bitwise.c libogg/src/framing.c
