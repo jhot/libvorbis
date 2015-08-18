@@ -22,7 +22,9 @@
 #endif
 
 #include <math.h>
+#ifdef __IOS__
 #include "os_types.h"
+#endif
 
 #include "misc.h"
 

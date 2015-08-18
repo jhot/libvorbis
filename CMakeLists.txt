@@ -45,7 +45,11 @@ set(VORBIS_SOURCES
 
 include_directories(.)
 include_directories(include)
+include_directories(include/vorbis)
 include_directories(lib)
+include_directories(lib/books/floor)
+include_directories(lib/books/coupled)
+include_directories(lib/books/uncoupled)
 include_directories(libogg/include)
 
 add_library(vorbis ${VORBIS_SOURCES})
